@@ -1,0 +1,28 @@
+<html>
+
+<body>
+    <script type="text/javascript">
+       function linkGen(){
+	   var str1 = "http://164.78.200.43/~teosj/hbl/voucher.php?a=";
+           //document.getElementById("txtBox").value = parseInt(document.getElementById("txtBox").value)+10;
+		   document.getElementById("txtBox").value = str1.concat(String(document.getElementById("txtBox").value));
+       }
+
+       function reset(){
+           document.getElementById("txtBox").value=0;
+       }
+    </script>
+
+    <form name="formNum">
+        <p>
+            <input type="text" size="200" name="txtBox" id="txtBox" value="enter admin number here" />
+        </p>
+
+        <p>
+            <input type="button" value="linkGen" onclick="linkGen()" />
+            <input type="button" value="Reset" onclick="reset()" />
+        </p>
+     </form>
+</body>
+
+</html>
