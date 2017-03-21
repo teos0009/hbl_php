@@ -35,7 +35,7 @@ $imagename["pikachu1"] = "pikachu1.png";
 $imagename["pikachu0"] = "pikachu0.png";
 
 $cookielife = 2678400;
-$password = "0xdeadbeef";
+$password = "Show_Me_The_Password";
 
 // http://url/voucher.php?a=p1234567
 //http://164.78.200.43/~teosj/hbl/voucher.php?a=p1234567
